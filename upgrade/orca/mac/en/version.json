@@ -10,29 +10,29 @@
     "full": {
       "default": {
         "file_size": 227653669,
-        "file_md5": "abd1d52459f055a29e922fc2e16af509",
-        "file_sha256": "7a4a3ef9d43ee9bce6b4b21bd6f48c8eb775e12a38b4317bc9365ce9b3fae478",
-        "file_url": "https://github.com/Snapmaker/OrcaSlicer/releases/download/v2.3.1/Snapmaker_Orca_Mac_universal_V2.3.1.dmg",
+        "file_md5": "0c3c064c955f07b30c37ec2e99ac06ce",
+        "file_sha256": "0dde162c5ebf2ee2d2ffbddef89f7db303d35d0a0c5e27d2d6673cd198a48249",
+        "file_url": "https://github.com/Snapmaker/OrcaSlicer/releases/download/v2.3.3/Snapmaker_Orca_Mac_universal_V2.3.3.dmg",
         "reserved_1": "",
         "reserved_2": ""
       },
       "arm": {
         "file_size": 227653669,
-        "file_md5": "abd1d52459f055a29e922fc2e16af509",
-        "file_sha256": "7a4a3ef9d43ee9bce6b4b21bd6f48c8eb775e12a38b4317bc9365ce9b3fae478",
-        "file_url": "https://github.com/Snapmaker/OrcaSlicer/releases/download/v2.3.1/Snapmaker_Orca_Mac_universal_V2.3.1.dmg",
+        "file_md5": "0c3c064c955f07b30c37ec2e99ac06ce",
+        "file_sha256": "0dde162c5ebf2ee2d2ffbddef89f7db303d35d0a0c5e27d2d6673cd198a48249",
+        "file_url": "https://github.com/Snapmaker/OrcaSlicer/releases/download/v2.3.3/Snapmaker_Orca_Mac_universal_V2.3.3.dmg",
         "reserved_1": "",
         "reserved_2": ""
       },
       "intel": {
         "file_size": 227653669,
-        "file_md5": "abd1d52459f055a29e922fc2e16af509",
-        "file_sha256": "7a4a3ef9d43ee9bce6b4b21bd6f48c8eb775e12a38b4317bc9365ce9b3fae478",
-        "file_url": "https://github.com/Snapmaker/OrcaSlicer/releases/download/v2.3.1/Snapmaker_Orca_Mac_universal_V2.3.1.dmg",
+        "file_md5": "0c3c064c955f07b30c37ec2e99ac06ce",
+        "file_sha256": "0dde162c5ebf2ee2d2ffbddef89f7db303d35d0a0c5e27d2d6673cd198a48249",
+        "file_url": "https://github.com/Snapmaker/OrcaSlicer/releases/download/v2.3.3/Snapmaker_Orca_Mac_universal_V2.3.3.dmg",
         "reserved_1": "",
         "reserved_2": ""
       },
-      "file_describe": "Snapmaker Orca\nNew Features\n1. Added nozzles of 0.2mm, 0.6mm, and 0.8mm.\n2. Added \"Graphic Effect Plate\", and renamed \"Smooth High Temp Plate\" to \"Smooth PEI Plate\".\n3. Added new official filament types, now supporting multiple Silk Dual-Color PLA filaments.\n4. After clicking Print Now in the Model Library, a plate selection option is now available on the Print Preprocessing page.\n\nBug Fixes\n1. Fixed an issue where Web resource packages and process profiles could fail to update.\n2. Fixed an issue where server-side message backlogs caused devices in Cloud Mode to receive numerous outdated messages.\n3. Fixed an issue where some U1 printers failed to retrieve filament information after connecting.\n\nImprovements\n1. Optimized the camera countdown feature: removed the countdown in Cloud Mode, and cancelled the 5-minute limit in LAN Mode."
+      "file_describe": "New Features\n1. Added nozzles of 0.2mm, 0.6mm, and 0.8mm.\n2. Added \"Graphic Effect Plate\", and renamed \"Smooth High Temp Plate\" to \"Smooth PEI Plate\".\n3. Added new official filament types, now supporting multiple Silk Dual-Color PLA filaments.\n4. After clicking Print Now in the Model Library, a plate selection option is now available on the Print Preprocessing page.\n\nBug Fixes\n1. Fixed an issue where Web resource packages and process profiles could fail to update.\n2. Fixed an issue where server-side message backlogs caused devices in Cloud Mode to receive numerous outdated messages.\n3. Fixed an issue where some U1 printers failed to retrieve filament information after connecting.\n\nImprovements\n1. Optimized the camera countdown feature: removed the countdown in Cloud Mode, and cancelled the 5-minute limit in LAN Mode."
     }
   }
 }
