@@ -1,9 +1,9 @@
 {
-  "code": 200,
+  "code": 403,
   "data": {
     "has_update": true,
     "is_force": false,
-    "latest_version": "2.3.0",
+    "latest_version": "2.3.4",
     "latest_build_number": 1326032100,
     "contents": {
       "en": {
