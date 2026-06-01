@@ -16,4 +16,6 @@ temp_oss/
 .actrc
 
 #claude
-.claude
+#claude
+
+.DS_Store
