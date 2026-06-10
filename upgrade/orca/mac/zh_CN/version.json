@@ -4,35 +4,35 @@
     "data": {
         "is_full_upgrade": true,
         "is_force_upgrade": false,
-        "version": "2.3.3",
+        "version": "2.3.4",
         "release_type": "stable",
         "platform_type": "mac",
         "full": {
             "default": {
-                "file_size": 227653669,
-                "file_md5": "0c3c064c955f07b30c37ec2e99ac06ce",
-                "file_sha256": "0dde162c5ebf2ee2d2ffbddef89f7db303d35d0a0c5e27d2d6673cd198a48249",
-                "file_url": "https://snapmaker.oss-cn-beijing.aliyuncs.com/orca/Snapmaker_Orca_Mac_universal_V2.3.3.dmg",
+                "file_size": 225744985,
+                "file_md5": "7dddfedd545b18c6e80129270ee477ac",
+                "file_sha256": "ec79f5785aa1d1a6cd1368d0ded7241c37834bed28f0924314a19aacc8ef3425",
+                "file_url": "https://snapmaker.oss-cn-beijing.aliyuncs.com/orca/Snapmaker_Orca_Mac_universal_V2.3.4.dmg",
                 "reserved_1": "",
                 "reserved_2": ""
             },
             "arm": {
-                "file_size": 227653669,
-                "file_md5": "0c3c064c955f07b30c37ec2e99ac06ce",
-                "file_sha256": "0dde162c5ebf2ee2d2ffbddef89f7db303d35d0a0c5e27d2d6673cd198a48249",
-                "file_url": "https://snapmaker.oss-cn-beijing.aliyuncs.com/orca/Snapmaker_Orca_Mac_universal_V2.3.3.dmg",
+                "file_size": 225744985,
+                "file_md5": "7dddfedd545b18c6e80129270ee477ac",
+                "file_sha256": "ec79f5785aa1d1a6cd1368d0ded7241c37834bed28f0924314a19aacc8ef3425",
+                "file_url": "https://snapmaker.oss-cn-beijing.aliyuncs.com/orca/Snapmaker_Orca_Mac_universal_V2.3.4.dmg",
                 "reserved_1": "",
                 "reserved_2": ""
             },
             "intel": {
-                "file_size": 227653669,
-                "file_md5": "0c3c064c955f07b30c37ec2e99ac06ce",
-                "file_sha256": "0dde162c5ebf2ee2d2ffbddef89f7db303d35d0a0c5e27d2d6673cd198a48249",
-                "file_url": "https://snapmaker.oss-cn-beijing.aliyuncs.com/orca/Snapmaker_Orca_Mac_universal_V2.3.3.dmg",
+                "file_size": 225744985,
+                "file_md5": "7dddfedd545b18c6e80129270ee477ac",
+                "file_sha256": "ec79f5785aa1d1a6cd1368d0ded7241c37834bed28f0924314a19aacc8ef3425",
+                "file_url": "https://snapmaker.oss-cn-beijing.aliyuncs.com/orca/Snapmaker_Orca_Mac_universal_V2.3.4.dmg",
                 "reserved_1": "",
                 "reserved_2": ""
             },
-            "file_describe": "Snapmaker Orca\n新增项\n1. 新增 Full Spectrum (Beta) 全光谱功能。\n  （1）混色功能（比例模式、循环模式、匹配模式、渐变模式）：支持两种或三种耗材颜色混合；支持通过输入耗材编号进行混合；支持基于目标颜色匹配混色效果；支持两种耗材颜色混合形成渐变效果。\n  （2）混色细分层高：启用后，混色区域的层高将被细分，以实现更好的混色效果。支持全域生效（对所有外墙的混色区域生效）以及应用到填充。\n2. 新增适配 Snapmaker U1 的耗材种类。\n  - Generic: PC (0.4 / 0.6 / 0.8 mm), Support for PLA (0.2 / 0.6 / 0.8 mm)\n  - Snapmaker: Breakaway Support for PLA (0.2 / 0.6 / 0.8 mm), PETG HF (0.2 / 0.6 / 0.8 mm), PETG-CF (0.4 mm), PETG Translucent (0.2 / 0.4 / 0.6 / 0.8 mm), PLA Full Spectrum (0.4 mm), PLA Glow (0.4 mm), PLA Silk (0.2 / 0.6 / 0.8 mm), PLA Translucent (0.2 / 0.4 / 0.6 / 0.8 mm), PLA Wood (0.4 / 0.6 / 0.8 mm), PLA-CF (0.4 / 0.6 / 0.8 mm), PVA (0.6 / 0.8 mm), TPU 90A (0.6 / 0.8 mm), TPU 95A HF (0.6 / 0.8 mm)\n\n优化项\n1. 优化擦拭塔的肋条（Rib）结构。采用二次规划的方法，将 Rib 区域的形状约束为正方形，以增强擦拭塔在打印过程中的稳定性。\n2. 优化从设备本地文件发起打印的功能。当耗材密度为 0 时，系统仍能正确设置打印喷嘴映射，避免出现打印异常。\n\n修复项\n1. 修复在某些工艺参数配置下，擦拭塔首层超限的问题。\n2. 修复 3MF 文件中耗材数量超过挤出机数量而引发的一系列问题：（1）超出部分的耗材无法保存；（2）可能导致切片失败；（3）在预打印页面中，软件与设备的耗材映射出错。\n3. 修复当 13619 端口被其他进程占用时，无法点击上传或上传并打印的问题。\n4. 修复从内置模型库直接发起打印时，耗材映射失效的问题。"
+            "file_describe": "Snapmaker Orca\n修复项\n1. 修复了当选择耗材为 Generic Support for PLA 时，打印预处理页面中耗材映射失效的问题。\n2. 修复了带圆顶结构的模型在使用涂色功能后，切片结果出现迷宫状、岛屿状结构甚至局部缺失的问题。\n3. 在工艺 > 材料 > 特征用耗材中，重新开放了填充的参数设置。\n4. 修复了手绘绒毛表面时，部分已绘制区域未生成绒毛，而未绘制区域生成绒毛的问题。\n5. 修复了稀疏填充图案在首层出现错位的问题。"
         }
     }
 }
