@@ -4,19 +4,19 @@
   "data": {
     "is_full_upgrade": true,
     "is_force_upgrade": false,
-    "version": "2.3.3",
+    "version": "2.3.4",
     "release_type": "stable",
     "platform_type": "win",
     "full": {
       "default": {
-        "file_size": 107847672,
-        "file_md5": "3d382f4747bdf855b9ac80dacad9e28d",
-        "file_sha256": "3ff64fd4c5c59900933e03054d4668754fd2c14cb030e1defd417ae0ab5a78ac",
-        "file_url": "https://github.com/Snapmaker/OrcaSlicer/releases/download/v2.3.3/Snapmaker_Orca_Windows_Installer_V2.3.3.exe",
+        "file_size": 107851312,
+        "file_md5": "46e084b44d138e5e7f010140294cfd76",
+        "file_sha256": "7d9a1e715564abf6a882da195c83bc0e2c24a34a6f76098b81ec7e94578b4ce1",
+        "file_url": "https://github.com/Snapmaker/OrcaSlicer/releases/download/v2.3.4/Snapmaker_Orca_Windows_Installer_V2.3.4.exe",
         "reserved_1": "",
         "reserved_2": ""
       },
-      "file_describe": "New Features\n1. Introduced Full Spectrum (Beta) printing.\n  (1) Color Mixing (Ratio, Cycle, Match, Gradient): Supports mixing of two or three filament colors; Supports mixing by entering filament color codes; Supports matching mix effect to a target color; Supports creating a gradient effect by mixing two filament colors.\n  (2) Subdivide Mixing Layers: When enabled, layer height for mixing areas will be subdivided for better color mixing results. Full domain: When enabled, subdivided layer height applies to all mixed-color regions on outer walls, whether the colors are created by painting or filaments changes. Apply subdivision to infill: When enabled, infill within mixed-color regions is subdivided using the same settings.\n2. Added support for new filament types for the Snapmaker U1.\n  - Generic: PC (0.4 / 0.6 / 0.8 mm), Support for PLA (0.2 / 0.6 / 0.8 mm)\n  - Snapmaker: Breakaway Support for PLA (0.2 / 0.6 / 0.8 mm), PETG HF (0.2 / 0.6 / 0.8 mm), PETG-CF (0.4 mm), PETG Translucent (0.2 / 0.4 / 0.6 / 0.8 mm), PLA Full Spectrum (0.4 mm), PLA Glow (0.4 mm), PLA Silk (0.2 / 0.6 / 0.8 mm), PLA Translucent (0.2 / 0.4 / 0.6 / 0.8 mm), PLA Wood (0.4 / 0.6 / 0.8 mm), PLA-CF (0.4 / 0.6 / 0.8 mm), PVA (0.6 / 0.8 mm), TPU 90A (0.6 / 0.8 mm), TPU 95A HF (0.6 / 0.8 mm)\n\nImprovements\n1. Optimized the rib structure of the prime tower. A quadratic programming approach is used to constrain the rib area to a square shape, enhancing the stability of the prime tower during printing.\n2. Optimized printing from local files. The system can now correctly configure the filament-to-nozzle mapping even when the filament density is 0, preventing printing anomalies.\n\nBug Fixes\n1. Fixed an issue where the first layer of the prime tower could exceed limits under certain process parameter configurations.\n2. Fixed a series of issues that could occur when a 3MF file contained more filaments than available extruders: (1) Excess filaments could not be saved. (2) Slicing could fail. (3) Filament mapping between the software and the printer could be incorrect on the Print Preprocessing page.\n3. Fixed an issue where Upload and Upload and Print were unavailable when port 13619 was occupied by another process.\n4. Fixed an issue where filament mapping could fail when starting a print directly from the built-in model library."
+      "file_describe": "Bug Fixes\n1. Fixed an issue where filament mapping failed on the Print Preprocessing page when Generic Support for PLA was selected.\n2. Fixed an issue where slicing painted models with dome-shaped structures could result in maze-like patterns, island artifacts, or partial geometry loss.\n3. Re-enabled infill parameter settings under Process > Multimaterial > Filament for Features.\n4. Fixed an issue with the Fuzzy Skin painting feature where certain painted areas failed to generate Fuzzy Skin while unpainted areas incorrectly generated it.\n5. Fixed an issue where sparse infill patterns were misaligned on the first layer."
     }
   }
 }
